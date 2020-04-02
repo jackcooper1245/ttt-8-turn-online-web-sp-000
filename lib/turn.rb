@@ -34,6 +34,7 @@ user_input = gets.strip
 #convert input to index
 input_to_index(user_input)
 #if index is valid
+valid_move(board, index)
 #  make the move for input
 #else
 #  ask for input again until you get a valid input
