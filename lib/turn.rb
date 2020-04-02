@@ -38,8 +38,6 @@ if valid_move?(board, index)
 #  make the move for input
 move(board, index, character = "X")
 #else
-else 
-  turn(board)
 end
 #  ask for input again until you get a valid input
 #end
