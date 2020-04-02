@@ -27,4 +27,18 @@ def move(board, index, character = "X")
   board[index] = character
 end
 
-```
+def turn(board)
+  puts "Please enter 1-9:"
+  #get input
+user_input = gets.strip
+#convert input to index
+input_to_index(user_input)
+#if index is valid
+
+
+#  make the move for input
+#else
+#  ask for input again until you get a valid input
+#end
+end
+
