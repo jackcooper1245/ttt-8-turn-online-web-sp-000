@@ -34,11 +34,8 @@ user_input = gets.strip
 #convert input to index
 input_to_index(user_input)
 #if index is valid
-if valid_move?(board, index)
 #  make the move for input
-move(board, index, character = "X")
 #else
-end
 #  ask for input again until you get a valid input
 #end
 end
