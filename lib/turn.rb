@@ -40,3 +40,4 @@ move(board, index, character = "X")
 # else
 else turn(board, input_index, valid_move, move)
 end
+end
