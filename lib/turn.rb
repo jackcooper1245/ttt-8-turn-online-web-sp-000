@@ -37,6 +37,7 @@ index = input_to_index(user_input)
 if valid_move?(board, index)
 #  make the move for input
 move(board, index, character = "X")
+display_board(board)
 #else
 else
 #  ask for input again until you get a valid input
