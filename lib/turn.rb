@@ -16,7 +16,7 @@ board[index] != " "
 end
 
 def valid_move?(board, index)
- if board[index].to_i.between?(0, 8)
+ if index.between?(0, 8)
    if !position_taken?(board, index) 
      true
    end
